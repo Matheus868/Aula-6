@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="at.css">
+</head>
+<body>
+    <header>
+        <h1>Placar Eletrônico</h1>
+    </header>
+
+    <div id="placar">
+    
+    <div id="contadorA">
+        <h2>Time A</h2>
+        <h3 id="numA" >0</h3>
+        <button class="placar" onclick="A()">Ponto</button>
+</div>
+
+    <div id="contadorA">
+        <h2>Time B</h2>
+        <h3 id="numB">0</h3>
+        <button class="placar" onclick="B()">Ponto</button>
+</div>
+
+    </div>
+
+    <footer>
+        <p id="txtmensagem">Partida em andamento!</p> 
+        
+        <div id="resultado">
+            <button id="fim" onclick="ganhador()">Finalizar Partida</button>      
+            <button id="novo" onclick="resetar()">Iniciar novo jogo</button>
+        </div>
+    </footer>
+
+    <script src="at.js"></script>
+</body>
+</html>

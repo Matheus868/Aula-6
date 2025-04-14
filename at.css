@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    background-color: #D90429;
+
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+h2{
+    color: #2B2D42;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+h3{
+    color: #2B2D42;
+    font-size: 100px;
+    text-align: center;
+    padding: 120px;
+}
+
+#placar {
+width: 100vw;
+height: 60vh;
+display: flex;
+justify-content: space-evenly;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+#contadorA{
+width: 30vw;;
+border: solid 2px #D90429;
+text-align: center;
+border-radius: 10px;
+
+}
+
+.placar{
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 2px #D90429;
+    background-color: #EDF2F4;
+    cursor: pointer;
+    color: #2B2D42;
+    height: 7vh;
+    width: 50%;
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #2B2D42;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    
+}
+
+#resultado{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60%;
+}
+
+button{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px #D90429;
+    background-color: #EDF2F4;
+    cursor: pointer;
+    color: #2B2D41;
+    height: 7vh;
+    width: 30%;
+}
+
+P{
+    font-size: 60PX;
+}
+
